@@ -7,7 +7,7 @@
 ## Assume the matrix passed to ftns as arg is always invertible, 
 ##   or it should be test in the first place.
 
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(X = matrix()) {
       ## The default value of X is a 1x1 matrix & X(1,1)=NA, not NULL
       ## Under 2 situations, data is stored as X in the environment 
       ## of an obj of makeCacheMatrix.
